@@ -1,14 +1,29 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
-        "status": "pending"
+        "data": {
+          "assigned_domain": "students-hour.gl.joinmc.link",
+          "assigned_srv": "students-hour.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "8a833a2b-ae9e-41cd-9a61-581907f01145",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 30928,
+          "port_start": 30927,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
       },
       "created_at": "2024-06-19T02:17:30.046176Z",
       "disabled_reason": null,
